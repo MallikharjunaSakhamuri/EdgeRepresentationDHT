@@ -88,7 +88,7 @@ If you use this code in your research, please cite our paper:
 @article{sakhamuri2023edgerepresentationdht,
   title={Understanding and Classification of Innate Immune Response through Edge Representation Learning with Dual Hypergraph Transformation},
   author={Sakhamuri, Mallikharjuna Rao and Henna, Shagufta and Creedon, Leo and Meehan, Kevin},
-  journal={Your Journal Here},
+  journal={},
   year={2023}
 }
 ```
