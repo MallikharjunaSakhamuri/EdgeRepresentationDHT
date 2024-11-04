@@ -1,1 +1,14 @@
+This document describes the contents of the data files included in the `Data/` folder. These datasets are used for training and testing the Edge Representation Learning model with Dual Hypergraph Transformation (DHT) for predicting binding affinities and analyzing immune responses.
 
+- `after_pca.txt`: Contains principal component analysis (PCA) results applied to the initial dataset for dimensionality reduction.
+- `balanced_high_positive_negative_immunogenicity.csv`: A balanced dataset with high positive and negative immunogenicity samples for model training and evaluation.
+- `covid_predicted_result.csv`: Predicted binding affinities for COVID-19 related antigens as processed by the DHT model.
+- `deephlapan_result_cell.csv`: Results from the DeepHLApan model for comparison with the DHT model in terms of cell interaction analysis.
+- `dengue_test.csv`: Testing dataset with dengue-related HLA and peptide interactions used for model validation.
+- `edges_values.csv`: Contains values representing edges in the graph, capturing relationships between HLA and peptide attributes.
+- `hla2paratopeTable_aligned.txt`: Aligned data table for HLA paratopes, used to standardize the data inputs.
+- `ori_test_cells.csv`: Original test cell data used to evaluate the model’s predictive performance.
+- `remove0123.csv`: Processed dataset after removing specific outlier data points (0, 1, 2, 3).
+- `remove0123_sample100.csv`: A sample of 100 entries from the `remove0123.csv` file for testing purposes.
+- `remove0123_test.csv`: Test dataset with removed outliers, used for further evaluation.
+- `sars_cov_2_result.csv`: Predicted binding affinities for SARS-CoV-2 related antigens.
